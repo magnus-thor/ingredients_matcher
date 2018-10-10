@@ -14,3 +14,22 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+// const editRecordModal = (html) => {
+//   var showAccountElement = document.getElementById('search_result')
+//   showAccountElement.style.display = 'none'
+//   let modalEl = document.createElement('div');
+//   modalEl.style.width = '100vw';
+//   modalEl.style.height = '100vh';
+//   modalEl.style.margin = '20px auto';
+//   modalEl.style.padding = '20px 20px';
+//   modalEl.style.backgroundColor = '#fff';
+//   modalEl.innerHTML = html;
+
+//   // mui.overlay('on', modalEl, {
+//   //     static: true,
+//   //     onclose: function () {
+//   //         showAccountElement.style.display = ''
+//   //     }
+//   // });
+// }
